@@ -20,5 +20,13 @@ public class Usuario {
     @Column(nullable = false)
     private String nombre, apellido, email, password, rol;
 
+    public String getUsername() {
+    return email;
+    }
+
+    public void setUsername(String username) {
+    this.email = username;
+    }
+
     
 }
