@@ -1,9 +1,12 @@
 package backend.ropiarma.repository;
 
 import org.springframework.stereotype.Repository;
+
+import backend.ropiarma.models.entities.Ubicacion;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository 
-public class UbicacionRepository extends JpaRepository<Ubicacion, Integer> {
+public interface UbicacionRepository extends JpaRepository<Ubicacion, Integer> {
     
 }
