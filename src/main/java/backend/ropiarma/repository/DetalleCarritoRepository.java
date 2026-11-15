@@ -1,9 +1,12 @@
 package backend.ropiarma.repository;
 
 import org.springframework.stereotype.Repository;
+
+import backend.ropiarma.models.entities.DetalleCarrito;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository 
-public class DetalleCarritoRepository extends JpaRepository<DetalleCarrito, Integer> {
+public interface DetalleCarritoRepository extends JpaRepository<DetalleCarrito, Integer> {
     
 }

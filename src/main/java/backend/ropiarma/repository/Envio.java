@@ -4,6 +4,6 @@ import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository 
-public class Envio extends JpaRepository<Envio, Integer> {
+public interface Envio extends JpaRepository<Envio, Integer> {
     
 }
