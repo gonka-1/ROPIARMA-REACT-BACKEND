@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ropiarma.controller.models.dto.AuthResponse;
-import com.example.ropiarma.controller.models.dto.LoginRequest;
-import com.example.ropiarma.controller.services.AuthService;
+import backend.ropiarma.models.dto.AuthResponse;
+import backend.ropiarma.models.dto.LoginRequest;
+import backend.ropiarma.services.AuthService;
 
 
 @CrossOrigin(origins = "*")
