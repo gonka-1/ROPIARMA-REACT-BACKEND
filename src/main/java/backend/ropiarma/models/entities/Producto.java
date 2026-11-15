@@ -23,7 +23,10 @@ public class Producto {
     private String nombre, descripcion;
 
     @Column (nullable = false)
-    private int precio, stock;
+    private double precio;
+
+    @Column (nullable = false)
+    private int stock;
 
     @ManyToOne 
     @JoinColumn (name = "idCategoria", nullable = false)
