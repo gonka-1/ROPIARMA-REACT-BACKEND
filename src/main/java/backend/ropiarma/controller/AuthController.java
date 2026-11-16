@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import backend.ropiarma.models.dto.AuthResponse;
 import backend.ropiarma.models.dto.LoginRequest;
-import backend.ropiarma.services.AuthService;
+import backend.ropiarma.service.AuthService;
 
 
 @CrossOrigin(origins = "*")
